@@ -100,3 +100,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+}
